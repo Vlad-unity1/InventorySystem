@@ -64,7 +64,7 @@ namespace InventorySystem
             return false;
         }
 
-        private void UseItem(Item item, Player player) // метод для вьюшки сразу написал
+        private void UseItem(Item item, Player player)
         {
             if (_items.ContainsKey(item) && _items[item] > 0)
             {

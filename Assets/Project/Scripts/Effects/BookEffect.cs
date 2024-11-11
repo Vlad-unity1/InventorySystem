@@ -17,11 +17,7 @@ namespace Book
             if (!_isRead)
             {
                 _isRead = true;
-                player.Expirience(EXP);
-            }
-            else
-            {
-                Console.WriteLine("isUsed.");
+                player.Experience(EXP);
             }
         }
     }

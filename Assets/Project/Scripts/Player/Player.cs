@@ -13,7 +13,6 @@ namespace PlayerStats
         public void Heal(int amount)
         {
             CurrentHP += amount;
-            Debug.Log($"Player heal {amount} CurrentHP. Now CurrentHP: {CurrentHP}");
         }
 
         public void EquipWeapon(WeaponEffect weapon)
@@ -24,10 +23,10 @@ namespace PlayerStats
         public void EquipArmor(ArmorEffect armor)
         {
 
-            Debug.Log($"WeaponEffect {armor} equip.");
+            Debug.Log($"ArmorEffect {armor} equip.");
         }
 
-        public void Expirience(int experience)
+        public void Experience(int experience)
         {
             Exp += experience;
         }
